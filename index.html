@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Over</title>
+    <link href="images/fav.icon" rel="icon" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+
+    <div id="loadingScreen" class="loading-screen d-none">
+      <div class="loading-content">
+          <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+          </div>
+          <p>Loading Data...</p>
+      </div>
+  </div>
+
+  <div class="gameDetails d-none row container m-auto position-relative py-5">
+
+    
+
+      
+  </div>
+
+
+    <div class="container main">
+      <nav class="text-center nav justify-content-between p-3 bg-dark position-fixed z-3 top-0 start-0 end-0 container rounded-3 shadow">
+          <h1 class="fs-2 fw-bold rounded-3 p-2 ">GAME REVIEWS</h1>
+          <div class="nav nav-pills align-items-center">
+              <a href="#" class="nav-link active" data-category="mmorpg" >MMORPG</a>
+              <a href="#" class="nav-link" data-category="shooter">SHOOTER</a>
+              <a href="#" class="nav-link" data-category="sailing">SAILING</a>
+              <a href="#" class="nav-link" data-category="permadeath">PERMADEATH</a>
+              <a href="#" class="nav-link" data-category="superhero">SUPERHERO</a>
+              <a href="#" class="nav-link" data-category="pixel">PIXEL</a>
+          </div>
+      </nav>
+
+
+
+      <div class="row mt-5 " id="gamesData">
+          <!-- Cards -->
+
+      </div>
+  </div>
+
+
+    <!-- Bootstrap Script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome Script -->
+    <script src="js/all.min.js"></script>
+    <!-- Main Script -->
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
